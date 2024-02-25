@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+
+        <video id="myvideo" src="big_buck_bunny.mp4"  width="600"></video>
+
+        <input  id="range" type="range" min="0" max="100" step="1" value="0">
+        <div>
+        <button class="play">play</button>
+        <button class="stop">stop</button>
+        <button class="backward_big"><<</button>
+        <button class="backward_small"><</button>
+        <button class="forward_small">></button>
+        <button class="forward_big">>></button>
+        <input  id="volume" type="range" min="0" max="1" step="0.01" value="0">
+        <button class="mute">mute</button><br>
+        <label>speed</label>
+        <input type="range" id="speed" min="0" max="4" step="0.1" value="1">
+       
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
