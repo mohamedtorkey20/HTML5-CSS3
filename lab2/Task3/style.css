@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    background-color: #f0f0f0; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+canvas {
+    display: block;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: auto; /* Center the canvas */
+}
+math{
+    color: red;
+    font-size: 25px;
+}

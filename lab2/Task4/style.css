@@ -1,0 +1,12 @@
+#container {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 1px solid #000;
+}
+canvas {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
